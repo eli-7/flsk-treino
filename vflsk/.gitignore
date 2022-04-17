@@ -1,0 +1,18 @@
+# Aula: https://www.youtube.com/watch?v=MBFDLpQHZpg
+#Virtual Environment
+*Lib*
+*Scripts*
+*.cfg
+
+#Flask
+instance/*
+!instance/.gitignore
+.webassets-cache
+
+#Flask.Python Stack
+#Byte-compiled / optmized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.rst
